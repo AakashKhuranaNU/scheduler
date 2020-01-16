@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Course from './Course';
+import Course from './Course/Course';
 import { Button } from "rbx";
-import { terms, buttonColor, getCourseTerm } from './Course/shared';
+import { terms, buttonColor, getCourseTerm } from './Course/Shared';
 
 const TermSelector = ({ state }) => (
 <Button.Group hasAddons>

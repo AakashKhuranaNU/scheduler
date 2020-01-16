@@ -3,10 +3,10 @@ import "rbx/index.css";
 import { Button, Container, Message, Title } from "rbx";
 import firebase from 'firebase/app';
 import 'firebase/auth';
-import CourseList from 'C:/Users/adity/scheduler/src/components/CourseList.js';
+import CourseList from './components/CourseList';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import { timeParts } from './components/Course/Shared';
-import db from './components/Course/Firebase';
+import db from './components/Course/firebase';
 
 const uiConfig = {
   signInFlow: 'popup',
