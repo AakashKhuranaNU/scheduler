@@ -4,6 +4,8 @@ import db from '../Course/firebase';
 import { timeParts, buttonColor, getCourseTerm } from '../Course/Shared';
 import { hasConflict } from '../Course/time';
 
+//file names case sensitive
+
 const getCourseNumber = course => (
 course.id.slice(1, 4)
 )
