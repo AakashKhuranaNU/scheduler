@@ -58,10 +58,10 @@ const CourseList = ({ courses }) => (
 );
 
 const App = () =>  (
-  <div>
+  <Container>
     <Banner title={ schedule.title } />
     <CourseList courses={ schedule.courses } />
-  </div>
+  </Container>
 );
 
 export default App;
